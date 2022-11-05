@@ -36,5 +36,3 @@ plugins:
   - awesome-pages
 extra_css:
   - stylesheets/extra.css
-repo_name: wiki/streaming_platform
-repo_url: https://git.apsolutions.ru/aps/Wiki/streaming-platform
