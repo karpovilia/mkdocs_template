@@ -36,3 +36,4 @@ plugins:
   - awesome-pages
 extra_css:
   - stylesheets/extra.css
+  
