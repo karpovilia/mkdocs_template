@@ -1,0 +1,33 @@
+/* Custom styles to override MkDocs defaults and enhance theme */
+
+/* Unordered list <ul> symbols:
+ * - level 2 is hollow circle
+ * - level 3 is filled square
+ * - ul default is filled disc (bullet)
+ */
+ article ul ul {
+    list-style-type: circle !important;
+  }
+  
+  article ul ul ul {
+    list-style-type: square !important;
+  }
+  
+  .md-typeset {
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  
+  .md-typeset ul li :-webkit-any(ul, ol) {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
+  
+  .md-typeset ol li,
+  .md-typeset ul li {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+  }
+  
