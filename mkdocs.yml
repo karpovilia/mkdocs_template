@@ -8,7 +8,7 @@ theme:
     - navigation.tabs
   palette:
     - scheme: default
-      primary: white
+      primary: black
       toggle:
         icon: material/lightbulb-outline
         name: Switch to dark mode
