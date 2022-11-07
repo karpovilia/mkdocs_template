@@ -4,6 +4,8 @@ theme:
     text: Nunito
   features:
     - navigation.indexes
+    - instant
+    - navigation.tabs
   palette:
     - scheme: default
       primary: white
