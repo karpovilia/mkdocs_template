@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material 
-      - run: pip install mkdocs-roamlinks-plugin==0.2.0
+      - run: pip install mkdocs-roamlinks-plugin
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-localsearch
       - run: pip install mkdocs-literate-nav
