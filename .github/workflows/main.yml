@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material 
-      - run: pip install mdx_del_int
+      - run: pip install git+git://github.com/aleray/mdx_del_ins.git
       - run: pip install mkdocs-roamlinks-plugin
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-localsearch
