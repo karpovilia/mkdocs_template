@@ -30,7 +30,7 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
-  - del_ins
+  - pymdownx.tilde
   - toc:
       permalink: "⚓︎"
       permalink_title: Anchor link to this section for reference
